@@ -1,0 +1,12 @@
+model:
+  path: models/config_1e-2_e150_res35_block_4types_pre_block_square_loss_0_0456.h5
+  mode: inference
+  settings:
+    mean_pixel: [128,128,128]
+    backbone: resnet35
+    num_classes: 2
+    gpu_count: 1
+    images_per_gpu: 1
+    post_nms_rois_inference: 2000
+    rpn_nms_threshold: 1.0
+    detection_nms_threshold: 0.35
